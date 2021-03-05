@@ -10,12 +10,10 @@
   --color-8:#222335;
   --color-9: #C72980;
   --color-10: #46438B;
-  
-
   --dark-800: #24292d;
   --dark-700: #2f363e;
   --white-900: #ffffff;
-  --white-800: #rgba(255, 255, 255, 0.8);
+  --white-800: rgba(255, 255, 255, 0.8);
   -shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   scroll-behavior: smooth;
 

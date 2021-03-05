@@ -20,7 +20,7 @@ const Headertop = () =>{
               
                     <li> <a href="about"> about </a> </li>
                     <li> <a href="#why-us"> Habilidades </a> </li>
-                    <li> <a href=""> projetos </a> </li>
+                    <li> <a href="#projetos"> projetos </a> </li>
                     <li> <a href=""> contato </a> </li>
                     <li className="header-btn"> <a href="" > Peça orçamento </a> </li>
                     
