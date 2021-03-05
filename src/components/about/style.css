@@ -1,0 +1,165 @@
+.about-section {
+  background-color: var(--dark-800);
+  overflow: hidden;
+ 
+
+
+text-align: center;
+  
+}
+
+
+
+.h-100 {
+    
+  min-height: 100vh;
+}
+
+
+.about-img,
+.about-text{
+
+
+    width:50%;
+    padding: 0 15px;
+}
+
+.about-text h1 span{
+ 
+    position: relative;
+    color:var(--color-2);
+ 
+
+}
+
+
+.about-text h1{
+    font-size: 50px;
+    color: var(--color-7);
+    text-transform: uppercase;
+    line-height:1.5;
+}
+.about-text h2{
+    font-size: 18px;
+    font-weight:100px;
+    color: var(--white-900);
+    margin:15px 0 40px;
+}
+
+
+
+.about-img-inner{
+    position: relative;
+    width:400px;
+    margin:auto;
+}
+.about-img-inner img{
+    animation: zoom 7s linear infinite;
+    width:100%
+  
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius:30px;
+    text-transform: capitalize;
+    font-weight: 900px;
+    border:1px solid transparent;
+    transition:all 0.3s ease;
+}
+
+.btn-1{
+    background-color:var(--color-7);
+    color: var(--white-900)
+
+}
+.btn-1:hover{
+    background-color:transparent;
+    border-color: var(--color-7);
+    color: var(--color-7)
+
+
+}
+
+.about-skills{
+
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    animation: spin01 7s linear infinite;
+    
+
+}
+
+  @keyframes spin01 {
+    0%,100%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(0.6);
+    }
+} 
+
+@keyframes zoom {
+    0%,100%{
+        transform:scale(0.4);
+    }
+    50%{
+        transform:scale(0.7);
+    }
+} 
+
+
+
+.about-skills-itens{
+
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    border-radius:50% ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    font-size: 16px;
+   color: var(--white-900);
+
+}
+
+.about-skills-itens:nth-child(1){
+    right:38%;
+    top:-40px;
+    background-color: var(--color-7);
+    
+}
+.about-skills-itens:nth-child(2){
+    left:-40px;
+    top:30%;
+    background-color: var(--color-2);
+
+}
+.about-skills-itens:nth-child(3){
+    right:-50px;
+    top:30%;
+    background-color: var(--color-2);
+    
+}
+
+.about-skills-itens:nth-child(4){
+    right:5%;
+    bottom:-30px;
+    background-color: var(--color-2);
+    
+    
+}
+.about-skills-itens:nth-child(5){
+ 
+    left:5%;
+    bottom:-30px;
+    background-color: var(--color-2);
+    
+    
+}
