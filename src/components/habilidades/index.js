@@ -37,7 +37,7 @@ const Habilidades = () => {
           <div className="why-us-item">
             <FaSass size={40} color={"#0caa68"} />
             <h3>Sass</h3>
-            <p>1  meses de experiência</p>
+            <p>2  meses de experiência</p>
           </div>
 
           <div className="why-us-item">

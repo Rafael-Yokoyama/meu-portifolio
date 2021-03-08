@@ -1,5 +1,5 @@
 .fun-facts-section{
-    background-color: var(--dark-800);
+    background-color: var(--dark-700);
     padding-top:20px;
     
 }
@@ -80,4 +80,16 @@ border-radius:4px
 .justify-content{
     display:flex;
     justify-content:center;
+}
+
+
+@media (max-width:767px){
+      
+ 
+  
+      .fun-facts-img,.fun-facts-items{
+        width: 100%;
+    }
+
+
 }

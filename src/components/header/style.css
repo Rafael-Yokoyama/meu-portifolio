@@ -136,3 +136,48 @@
 background-color:var(--color-2);
 color: var(--white-900)
 }
+
+/*responsividade*/
+
+@media (max-width:991px){
+
+  .header .nav-toggler{
+    display:flex;
+    margin-right: 30px;
+  }
+
+  .header .nav{
+    position:absolute;
+    background-color: var(--dark-700);
+    top:100%;
+    left: 0;
+   width: 100%;
+   visibility: hidden;
+   opacity:0;
+  }
+
+  .header .nav ul li {
+    margin:0 ;
+    display:block;
+  }
+
+  .header #nav-check:checked ~ .nav{
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .header .nav ul .header-btn {
+    display: inline-block;
+  }
+  
+}
+
+
+@media (max-width:767px){
+  
+}
+
+
+@media (max-width:575px){
+  
+}

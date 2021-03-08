@@ -15,7 +15,7 @@
   --white-900: #ffffff;
   --white-800: rgba(255, 255, 255, 0.8);
   -shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  scroll-behavior: smooth;
+
 
 
 }
@@ -26,6 +26,7 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  scroll-behavior: smooth;
 }
 
 ::before::after {
@@ -69,3 +70,13 @@ img {
 }
 
 
+
+
+html{
+    scroll-behavior: smooth;
+  }
+
+ 
+:target {
+  scroll-margin-top: 2em;
+}

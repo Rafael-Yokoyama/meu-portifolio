@@ -11,12 +11,7 @@ const About= () => {
                    <div className="about-text">
 
                        <h1>Desenvolvedor  <span>Front-end</span> </h1>
-                       <h2> Iniciei como Desenvolvedor Front End no final 2020 e 
-                           venho me dedicando a conhecer cada vez mais esse mundo maravilhoso.
-                           Tenho experiência em HTML5, CSS3, JavaScript e
-                            venho estudando React com TypeScript e com JavaScript
-
-. </h2>
+       
 
                        <a href="" className=" btn btn-1">ver projetos</a>
                        

@@ -1,5 +1,5 @@
 .why-us-section {
-  background-color: var(--dark-700);
+  background-color: var(--dark-800);
   padding: 28px 0;
   text-align: center;
 }
@@ -28,7 +28,7 @@
   width: 100%;
   left: 0;
   bottom: 0;
-  height: 2px;
+  height: 4px;
   background-color: var(--color-7);
 }
 
