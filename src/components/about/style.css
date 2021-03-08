@@ -25,7 +25,7 @@ text-align: center;
 }
 
 .about-text h1 span{
- 
+
     position: relative;
     color:var(--color-2);
  
@@ -34,16 +34,12 @@ text-align: center;
 
 
 .about-text h1{
+
+
     font-size: 50px;
     color: var(--color-7);
     text-transform: uppercase;
     line-height:1.5;
-}
-.about-text h2{
-    font-size: 18px;
-    font-weight:100px;
-    color: var(--white-900);
-    margin:15px 0 40px;
 }
 
 
@@ -51,12 +47,16 @@ text-align: center;
 .about-img-inner{
     position: relative;
     width:400px;
-    margin:auto;
+    margin:0 auto;
 }
 .about-img-inner img{
     animation: zoom 7s linear infinite;
     width:100%
   
+}
+
+.fun-facts-img img{
+margin: 0 auto;
 }
 
 
@@ -264,6 +264,5 @@ font-size:40px;
     
 }
 
-  
 
-  
+

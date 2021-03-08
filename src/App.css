@@ -1,25 +1,27 @@
 :root {
-
   --color-1: #eaa023;
   --color-2: #e91263;
   --color-3: #e75c26;
   --color-4: #006ac5;
   --color-5: #0fa7ff;
   --color-6: #24caac;
-  --color-7 : #0caa68;
-  --color-8:#222335;
-  --color-9: #C72980;
-  --color-10: #46438B;
+  --color-7: #0caa68;
+  --color-8: #222335;
   --dark-800: #24292d;
   --dark-700: #2f363e;
   --white-900: #ffffff;
   --white-800: rgba(255, 255, 255, 0.8);
   -shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-
-
-
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 4em;
+}
 
 * {
   padding: 0;
@@ -38,7 +40,6 @@ body {
   line-height: 1.5;
   font: weight 300px;
   overflow-x: hidden;
-
 }
 
 ul {
@@ -52,12 +53,10 @@ a {
 img {
   vertical-align: middle;
   max-width: 100%;
-
 }
 
 .container {
   max-width: 1170px;
-
 
   margin: 0 auto;
 }
@@ -69,14 +68,3 @@ img {
   align-items: center;
 }
 
-
-
-
-html{
-    scroll-behavior: smooth;
-  }
-
- 
-:target {
-  scroll-margin-top: 2em;
-}

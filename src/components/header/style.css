@@ -1,167 +1,145 @@
 .header {
-    background-color: var(--dark-800);
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--dark-700);
-  
-  }
-  
-  
-  .header .logo {
-    padding: 0 15px;
-    font-weight: 600px;
-  
-  
-  }
-  
-  
-  .header .logo a {
-    font-size: 24px;
-    color: var(--white-900);
-    text-transform: capitalize;
-    font-weight: 600;
-  }
-  
-  /* --------------TOOGGLER---------------- */
-  
-  .header #nav-check{
-    position: absolute;
-    pointer-events: none;
-    opacity: 0;
-  
-  }
-  .header #nav-check:focus~.nav-toggler {
-    box-shadow: 0 0 10px var(--color-7);
-  }
-  
-  .header .nav-toggler {
-    height: 34px;
-    width: 44px;
-    border: 1px solid var(--color-7);
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
-    align-items: center;
-    justify-content: center;
-  
-  }
-  
-  .header .nav-toggler span {
-    display: block;
-    width: 20px;
-    height: 2px;
-    background-color: var(--color-7);
-    position: relative;
-  
-  }
-  
-  
-  .header #nav-check:checked~.nav-toggler span {
-    background-color: transparent;
-  }
-  
-  .header .nav-toggler span::before,
-  .header .nav-toggler span::after {
-  
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--color-7)
-  }
-  
-  .header .nav-toggler span::before {
-    transform: translateY(-7px)
-  }
-  
-  .header #nav-check:checked~.nav-toggler span::before {
-    transform: rotate(45deg)
-  }
-  
-  .header .nav-toggler span::after {
-    transform: translateY(6px)
-  }
-  
-  .header #nav-check:checked~.nav-toggler span::after {
-    transform: rotate(-45deg)
-  }
-  
-  
-  .header .nav {
-  
-    padding: 0 15px;
-  
-  
-  }
-  
-  .header .nav ul li {
-    display: inline-block;
-    margin-left: 40px;
-  }
-  
-  .header .nav ul li a {
-    font-size: 16px;
-    color: var(--white-900);
-    padding: 10px 0;
-    display: block;
-    text-transform: capitalize;
-    transition: all 0.5s ease;
-  }
-  
-  .header .nav ul li a:hover {
-    color: var(--color-7)
-  }
-
-  .header .nav ul .header-btn a{
-
-    border:1px solid var(--color-2);
-    color: var(--color-2);
-    padding:  5px 15px;
-    border-radius:30px;
-  
- 
+  background-color: var(--dark-800);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--dark-700);
 }
 
+.header .logo {
+  padding: 0 15px;
+  font-weight: 600px;
+}
 
-.header .nav ul .header-btn a:hover{
+.header .logo a {
+  font-size: 24px;
+  color: var(--white-900);
+  text-transform: capitalize;
+  font-weight: 600;
+}
 
+/* --------------TOOGGLER---------------- */
 
+.header #nav-check {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+}
+.header #nav-check:focus ~ .nav-toggler {
+  box-shadow: 0 0 10px var(--color-7);
+}
 
-background-color:var(--color-2);
-color: var(--white-900)
+.header .nav-toggler {
+  height: 34px;
+  width: 44px;
+  border: 1px solid var(--color-7);
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .nav-toggler span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-7);
+  position: relative;
+}
+
+.header #nav-check:checked ~ .nav-toggler span {
+  background-color: transparent;
+}
+
+.header .nav-toggler span::before,
+.header .nav-toggler span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-7);
+}
+
+.header .nav-toggler span::before {
+  transform: translateY(-7px);
+}
+
+.header #nav-check:checked ~ .nav-toggler span::before {
+  transform: rotate(45deg);
+}
+
+.header .nav-toggler span::after {
+  transform: translateY(6px);
+}
+
+.header #nav-check:checked ~ .nav-toggler span::after {
+  transform: rotate(-45deg);
+}
+
+.header .nav {
+  padding: 0 15px;
+}
+
+.header .nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.header .nav ul li a {
+  font-size: 16px;
+  color: var(--white-900);
+  padding: 10px 0;
+  display: block;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+}
+
+.header .nav ul li a:hover {
+  color: var(--color-7);
+}
+
+.header .nav ul .header-btn a {
+  border: 1px solid var(--color-2);
+  color: var(--color-2);
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.header .nav ul .header-btn a:hover {
+  background-color: var(--color-2);
+  color: var(--white-900);
 }
 
 /*responsividade*/
 
-@media (max-width:991px){
-
-  .header .nav-toggler{
-    display:flex;
+@media (max-width: 991px) {
+  .header .nav-toggler {
+    display: flex;
     margin-right: 30px;
   }
 
-  .header .nav{
-    position:absolute;
+  .header .nav {
+    position: absolute;
     background-color: var(--dark-700);
-    top:100%;
+    top: 100%;
     left: 0;
-   width: 100%;
-   visibility: hidden;
-   opacity:0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
   }
 
   .header .nav ul li {
-    margin:0 ;
-    display:block;
+    margin: 0;
+    display: block;
   }
 
-  .header #nav-check:checked ~ .nav{
+  .header #nav-check:checked ~ .nav {
     visibility: visible;
     opacity: 1;
   }
@@ -169,15 +147,5 @@ color: var(--white-900)
   .header .nav ul .header-btn {
     display: inline-block;
   }
-  
 }
 
-
-@media (max-width:767px){
-  
-}
-
-
-@media (max-width:575px){
-  
-}

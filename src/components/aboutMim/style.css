@@ -1,13 +1,13 @@
-.section{
+.section {
     background-color: var(--dark-700);
-    padding-top:20px;
-    
+    padding-top: 5px;
+
 }
 
-p{ 
+p {
     line-height: 30px;
     padding-bottom: 20px;
- font-size:22px;
- text-align: center;
- margin: 0  20px;
+    font-size: 22px;
+    text-align: center;
+    margin: 0 20px;
 }
