@@ -1,7 +1,6 @@
 .about-section {
   background-color: var(--dark-800);
-  overflow: hidden;
- 
+
 
 
 text-align: center;
@@ -40,6 +39,7 @@ text-align: center;
     color: var(--color-7);
     text-transform: uppercase;
     line-height:1.5;
+    padding-top:90px;
 }
 
 
@@ -172,11 +172,10 @@ margin: 0 auto;
 
     .about-text h1{
         width: 100%;
-        margin-left: 200px;
-
+       
   
 font-size:40px;
-        padding-top:60px;
+        padding-top:200px;
       
     }
     .btn-1{
@@ -227,8 +226,8 @@ font-size:40px;
 
       .btn-1{
           margin-top: 20px;
-        width: 200px;
-        margin-left: 50%;
+        width: 100%;
+        margin-left: 30px;
 
 
     }
