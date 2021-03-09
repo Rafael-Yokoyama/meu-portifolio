@@ -25,7 +25,7 @@ const AboutMim = () => {
                 <p>
                   Meu nome é Rafael, tenho 21 anos, moro no Brasil,
                   especificamente em Itatiba-SP. Atualmente estou cursando
-                  Engenharia da Computação em uma universidade . Também tenho
+                  Engenharia da Computação na Universidade São Francisco . Também tenho
                   estudado bastante sozinho para aprender novas tecnologias.
                 </p>
 

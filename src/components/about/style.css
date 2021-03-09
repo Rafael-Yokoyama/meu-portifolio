@@ -20,7 +20,7 @@ text-align: center;
 
 
     width:50%;
-    padding: 0 15px;
+    
 }
 
 .about-text h1 span{
@@ -46,7 +46,7 @@ text-align: center;
 
 .about-img-inner{
     position: relative;
-    width:400px;
+    width:300px;
     margin:0 auto;
 }
 .about-img-inner img{
@@ -73,9 +73,13 @@ margin: 0 auto;
 
 .btn-1{
     background-color:var(--color-7);
-    color: var(--white-900)
-
+    color: var(--white-900);
+    margin-bottom: 90px;
 }
+
+
+
+
 .btn-1:hover{
     background-color:transparent;
     border-color: var(--color-7);
@@ -178,6 +182,12 @@ font-size:40px;
         padding-top:200px;
       
     }
+.about-img{
+    padding-bottom: 60px;
+    
+
+}
+   
     .btn-1{
         width: 100%;
         margin-left: 200px;
@@ -215,20 +225,21 @@ font-size:40px;
         margin-top:-40px;
         margin-left: 20%;
         font-size:25px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
 
     }
       .about-text h1 span{
         white-space: nowrap;
-          font-size:20px;
+        
           margin-left: 40px;
           
       }
 
       .btn-1{
-          margin-top: 20px;
+          margin-top: -0px;
         width: 100%;
         margin-left: 30px;
+        margin-bottom: 40px;
 
 
     }
