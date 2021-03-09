@@ -212,9 +212,10 @@ font-size:40px;
 @media (max-width:575px){
       
     .about-text h1{
-        margin-top:20px;
-        margin-left: 50%;
+        margin-top:-40px;
+        margin-left: 20%;
         font-size:25px;
+        padding-bottom: 30px;
 
     }
       .about-text h1 span{
