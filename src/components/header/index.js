@@ -10,7 +10,7 @@ const Headertop = () => {
             <a href="#"> Dev Yokoyama</a>
           </div>
           <input type="checkbox" id="nav-check" />
-          <label for="nav-check" className="nav-toggler">
+          <label htmlFor="nav-check" className="nav-toggler">
             <span></span>
           </label>
 
