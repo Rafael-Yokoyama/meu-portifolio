@@ -180,6 +180,7 @@ margin: 0 auto;
   
 font-size:40px;
         padding-top:200px;
+        margin-left:250px;
       
     }
 .about-img{
@@ -212,6 +213,8 @@ font-size:40px;
 
     }
       .about-text h1 span{
+          
+   white-space: nowrap;
           width: 100%;
       }
   
@@ -223,7 +226,7 @@ font-size:40px;
       
     .about-text h1{
         margin-top:-40px;
-        margin-left: 20%;
+        margin-left: 30%;
         font-size:25px;
         padding-bottom: 40px;
 
@@ -238,7 +241,7 @@ font-size:40px;
       .btn-1{
           margin-top: -0px;
         width: 100%;
-        margin-left: 30px;
+        margin-left: 50px;
         margin-bottom: 40px;
 
 
