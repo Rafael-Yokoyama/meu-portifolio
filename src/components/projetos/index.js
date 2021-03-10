@@ -1,6 +1,9 @@
 import React from "react";
 import "./style.css";
-import img from "../../img/developer.svg";
+import img from "../../img/projeto1.PNG";
+import img1 from "../../img/projeto2.PNG";
+import img2 from "../../img/projeto3.PNG";
+import img3 from "../../img/projeto4.PNG";
 
 const Projetos = () => {
   return (
@@ -15,53 +18,80 @@ const Projetos = () => {
         </div>
 
         <div className="row">
-          <div className="fun-facts-img">
-            <img src={img} />
-          </div>
-          <div className="fun-facts-items">
-            <div className="row justify-content">
-              <div className="fun-facts-item">
-                <h3>Fariah Braids</h3>
-                <p>
-                  <a href="https://fariah-braids.netlify.app/" target="_blank">
-                    ver site
-                  </a>
-                </p>
-              </div>
-              <div className="fun-facts-item">
-                <h3> Projetos</h3>
-                <p>
-                  <a
-                    className="a-1"
-                    href="https://github.com/Rafael-Yokoyama/Projetos-Trilha-Abinbev-React"
-                    target="_blank"
-                  >
-                    ver
-                  </a>
-                </p>
-              </div>
-              <div className="fun-facts-item">
-                <h3>APP animais</h3>
-                <p>
-                  <a
-                    className="a-2"
-                    href="https://github.com/Rafael-Yokoyama/animais-peconhentos-"
-                    target="_blank"
-                  >
-                    ver app
-                  </a>
-                </p>
+          <div className="cards" id="Containerimg">
+      
+              <div className="divimg">
+              <a className="bloquinho" href="https://fariah-braids.netlify.app/" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                    src= {img}
+                    alt="imagem"
+                   
+                  />
+                </span> 
+                <figcaption>  Website criado sobre Braids e designer de sobrancelhas <p>clique para visitar</p> </figcaption>
+              
+              </a>
               </div>
 
-              <div className="fun-facts-item">
-                <h3> em contrução</h3>
-                <p>
-                  <a className="a-3" href="#" target="_blank">
-                    ...
-                  </a>
-                </p>
+              <div className="divimg">
+              <a className="bloquinho" href="https://rafael-yokoyama.github.io/projeto_food/build/" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                    src= {img1 }
+                    alt="imagem"
+                   
+                  />
+                </span> 
+                <figcaption>  Projeto Beer & Foods liste comidas <p>clique para visitar</p> </figcaption>
+              
+              </a>
               </div>
-            </div>
+ 
+              <div className="divimg">
+              <a className="bloquinho" href="https://rafael-yokoyama.github.io/Curriculo_Ts//build/" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                    src= {img2 } alt="imagem"
+                   
+                  />
+                </span> 
+                <figcaption>  Projeto Curriculum  apenas um modelo <p>clique para visitar</p> </figcaption>
+              
+              </a>
+              </div>
+
+              <div className="divimg">
+              <a className="bloquinho" href="https://github.com/Rafael-Yokoyama/Projetos-Trilha-Abinbev-React/tree/main/emporio" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                    src= {img3 } alt="imagem"
+                   
+                  />
+                </span> 
+                <figcaption> Projeto clone Empório da Cerveja <p>clique para visitar</p> </figcaption>
+              
+              </a>
+              </div>
+
+              <div className="divimg">
+              <a className="bloquinho" href="#" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                   
+                   
+                  />
+                </span> 
+                <figcaption> Novidades em breve aguarde    <p> carregando ...</p> </figcaption>
+              
+              </a>
+              </div>
+
+
+
+         
+       
+            
           </div>
         </div>
       </div>
