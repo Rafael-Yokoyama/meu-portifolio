@@ -4,6 +4,7 @@ import img from "../../img/projeto1.PNG";
 import img1 from "../../img/projeto2.PNG";
 import img2 from "../../img/projeto3.PNG";
 import img3 from "../../img/projeto4.PNG";
+import img4 from "../../img/projeto5.PNG";
 
 const Projetos = () => {
   return (
@@ -70,6 +71,18 @@ const Projetos = () => {
                   />
                 </span> 
                 <figcaption> Projeto clone Empório da Cerveja <p>clique para visitar</p> </figcaption>
+              
+              </a>
+              </div>
+              <div className="divimg">
+              <a className="bloquinho" href="https://pizzariayo.netlify.app/" target="_blank">
+                <span>
+                  <img  className="imagemProjetos"
+                    src= {img4 } alt="imagem"
+                   
+                  />
+                </span> 
+                <figcaption> Projeto fictício sobre uma  Pizzaria <p>clique para visitar</p> </figcaption>
               
               </a>
               </div>
