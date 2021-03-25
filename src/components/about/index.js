@@ -1,21 +1,25 @@
 import React from "react";
 
 import img from "../../img/Rafael.svg";
+import Rotate from 'react-reveal/Rotate';
 import "./style.css";
 
-const About = () => {
+const About  = () => {
   return (
     <section className="about-section">
       <div className="container">
         <div className="row h-100 ">
           <div className="about-text">
+          <Rotate left>
             <h1>
               Desenvolvedor <span>Front-end</span>{" "}
             </h1>
+            </Rotate>
 
             <a href="#projetos" className=" btn btn-1">
               ver projetos
             </a>
+        
           </div>
 
           <div className="about-img">

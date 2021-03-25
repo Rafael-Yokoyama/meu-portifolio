@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import LightSpeed from 'react-reveal/LightSpeed';
 
 const Habilidades = () => {
   return (
@@ -23,7 +24,7 @@ const Habilidades = () => {
               minhas <span>habilidades</span>
             </h2>
           </div>
-
+          <LightSpeed top>
           <div className="why-us-item">
             <div className="icon">
               {" "}
@@ -32,7 +33,7 @@ const Habilidades = () => {
             <h3>html</h3>
             <p>1 ano de experiência</p>
           </div>
-
+         
           <div className="why-us-item">
             <div>
               {" "}
@@ -77,12 +78,14 @@ const Habilidades = () => {
             <h3>JavaScript</h3>
             <p>2 meses de experiência</p>
           </div>
-
+          </LightSpeed>
           <div className="item-bloq">
             <AiOutlineLoading3Quarters size={40} color={"#fff"} />
             <h3> carregando</h3>
             <p> ...</p>
           </div>
+
+  
         </div>
       </div>
     </section>

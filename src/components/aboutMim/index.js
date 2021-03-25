@@ -1,5 +1,5 @@
 import React from "react";
-
+import Fade from 'react-reveal/Fade';
 import img from "../../img/Rafael2.svg";
 import "./style.css";
 
@@ -22,7 +22,8 @@ const AboutMim = () => {
           <div className="fun-facts-items">
             <div className="row justify-content">
               <div className="">
-                <p>
+
+              <Fade right>                <p>
                   Meu nome é Rafael, tenho 21 anos, moro no Brasil,
                   especificamente em Itatiba-SP. Atualmente estou cursando
                   Engenharia da Computação na Universidade São Francisco . Também tenho
@@ -34,6 +35,7 @@ const AboutMim = () => {
                   venho me dedicando cada vez mais . Vejo que estou no caminho
                   certo pois, vejo os resultados que as horas dedicadas trazem.
                 </p>
+                </Fade>
               </div>
             </div>
           </div>
