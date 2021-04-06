@@ -9,6 +9,7 @@
     "@types/react-animate-on-scroll": "^2.1.2",
     "i": "^0.3.6",
     "react": "^17.0.1",
+    "react-alice-carousel": "^2.4.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",

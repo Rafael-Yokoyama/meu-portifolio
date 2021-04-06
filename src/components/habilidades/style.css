@@ -32,7 +32,7 @@
   background-color: var(--color-7);
 }
 
-.why-us-item h3 {
+.item-habilidades h3 {
   line-height: 1.5;
   color: var(--white-900);
   text-transform: uppercase;
@@ -40,12 +40,12 @@
   font-weight: bold;
 }
 
-.why-us-item p {
+.item-habilidades p {
   font-size: 15px;
   color: var(--white-800);
 }
 
-.why-us-item {
+.item-habilidades {
   cursor: pointer;
   color: white;
   width: 300px;
@@ -55,6 +55,7 @@
   padding: 20px;
   border-radius: 6px;
 }
+
 .item-bloq {
   cursor: none;
   color: white;
@@ -66,7 +67,30 @@
   border-radius: 6px;
 }
 
-.why-us-item:hover {
+.item-habilidades:hover {
   transform: rotate(5deg);
   background-color: black;
+}
+
+.servicos {
+  width: 90%;
+
+  max-width: 600px;
+  margin: 40px auto;
+  border: 1px solid var(--color-7);
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.servicos h2 {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  color: var(--color-7);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.servicos p {
+  font-size: 1.4rem;
 }

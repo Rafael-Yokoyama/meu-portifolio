@@ -50,6 +50,7 @@ const AboutMim = () => {
             </div>
           </div>
         </div>
+   
       </div>
     </section>
   );

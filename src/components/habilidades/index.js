@@ -8,11 +8,15 @@ import {
   FaCss3Alt,
   FaJs,
   FaFigma,
+  FaRegLightbulb,
 } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { MdComputer } from "react-icons/md";
+import { ImMobile } from "react-icons/im";
 import ScrollAnimation from "react-animate-on-scroll";
-
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 const Habilidades = () => {
   return (
@@ -27,7 +31,7 @@ const Habilidades = () => {
               </h2>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <div className="icon">
                 {" "}
                 <FaHtml5 size={40} color={"#0caa68"} />
@@ -36,7 +40,7 @@ const Habilidades = () => {
               <p>1 ano de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <div>
                 {" "}
                 <FaReact size={40} color={"#0caa68"} />
@@ -45,37 +49,37 @@ const Habilidades = () => {
               <p>2 meses de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <FaSass size={40} color={"#0caa68"} />
               <h3>Sass</h3>
               <p>2 meses de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <FaCss3Alt size={40} color={"#0caa68"} />
               <h3>Css</h3>
               <p>1 ano de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <SiTypescript size={40} color={"#0caa68"} />
               <h3>TypeScript</h3>
               <p>2 meses de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <FaFigma size={40} color={"#0caa68"} />
               <h3>Figma </h3>
               <p>2 meses de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <FaBootstrap size={40} color={"#0caa68"} />
               <h3>Bootstrap</h3>
               <p>3 meses de experiência</p>
             </div>
 
-            <div className="why-us-item">
+            <div className="item-habilidades">
               <FaJs size={40} color={"#0caa68"} />
               <h3>JavaScript</h3>
               <p>2 meses de experiência</p>
@@ -88,6 +92,39 @@ const Habilidades = () => {
             </div>
           </div>
         </ScrollAnimation>
+        <div className="servicos">
+          <AliceCarousel
+            animationDuration="1000"
+            infinite
+            autoPlay
+            autoPlayInterval="3000"
+            disableButtonsControls="false"
+          >
+            <div>
+              <MdComputer size={40} color={"#0caa68"} />
+              <h2> Criação de Sites</h2>
+              <p>
+                Desenvolvimento de sites profissionais, sistemas web, blogs etc.
+              </p>
+            </div>
+            <div>
+              <ImMobile size={40} color={"#0caa68"} />
+              <h2> Sites Responsivos</h2>
+              <p>
+                Criação de sites responsivos para a melhor visualização em todas
+                as resoluções.
+              </p>
+            </div>
+            <div>
+              <FaRegLightbulb size={40} color={"#0caa68"} />
+              <h2> UI/UX Design</h2>
+              <p>
+                Desenho de layouts que se adequam ao seu negócio de forma
+                profissional e fiel no desenvolvimento.
+              </p>
+            </div>
+          </AliceCarousel>
+        </div>
       </div>
     </section>
   );

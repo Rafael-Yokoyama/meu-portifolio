@@ -22,7 +22,7 @@ const Headertop = () => {
             <ul>
               <li>
                 {" "}
-                <a href="#aboutmim"> about </a>{" "}
+                <a href="#aboutmim"> Sobre </a>{" "}
               </li>
               <li>
                 {" "}
