@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaInstagram,
 } from "react-icons/fa";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Footer = () => {
   return (
@@ -14,15 +15,23 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="footer-item footer-about">
+          <ScrollAnimation animateIn='bounceInRight'
+  animateOut='bounceOutLeft'>
             <p> Orgulhosamente feito por Rafael Yokoyama </p>
+            </ScrollAnimation>
             <div className="social-links ">
+    
               <a
                 href="https://www.facebook.com/rafael.yokoyama.5"
                 target="_blank"
               >
+            
                 {" "}
+      
                 <FaFacebookSquare size={30} />
+                
               </a>
+           
               <a href="https://github.com/Rafael-Yokoyama" target="_blank">
                 {" "}
                 <FaGithub size={30} />
@@ -41,7 +50,9 @@ const Footer = () => {
                 {" "}
                 <FaInstagram size={30} />
               </a>
+       
             </div>
+           
           </div>
         </div>
       </div>

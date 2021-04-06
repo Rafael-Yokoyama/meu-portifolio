@@ -5,11 +5,14 @@ import img1 from "../../img/projeto2.PNG";
 import img2 from "../../img/projeto3.PNG";
 import img3 from "../../img/projeto4.PNG";
 import img4 from "../../img/projeto5.PNG";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Projetos = () => {
   return (
     <section className="fun-facts-section" id="projetos">
       <div className="container">
+      <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeOut'>
         <div className="row">
           <div className="  section-title">
             <h2>
@@ -17,9 +20,12 @@ const Projetos = () => {
             </h2>
           </div>
         </div>
-
+        </ScrollAnimation>
+      
         <div className="row">
+
           <div className="cards" id="Containerimg">
+            
             <div className="divimg">
               <a
                 className="bloquinho"
@@ -37,7 +43,7 @@ const Projetos = () => {
                 </figcaption>
               </a>
             </div>
-
+   
             <div className="divimg">
               <a
                 className="bloquinho"
@@ -54,7 +60,8 @@ const Projetos = () => {
                 </figcaption>
               </a>
             </div>
-
+    
+        
             <div className="divimg">
               <a
                 className="bloquinho"
@@ -72,7 +79,8 @@ const Projetos = () => {
                 </figcaption>
               </a>
             </div>
-
+            
+         
             <div className="divimg">
               <a
                 className="bloquinho"
@@ -108,7 +116,8 @@ const Projetos = () => {
                 </figcaption>
               </a>
             </div>
-
+        
+ 
             <div className="divimg">
               <a className="bloquinho" href="#" target="_blank">
                 <span>
@@ -120,8 +129,12 @@ const Projetos = () => {
                 </figcaption>
               </a>
             </div>
+       
           </div>
+       
         </div>
+  
+        
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 
 import img from "../../img/Rafael.svg";
-import Rotate from 'react-reveal/Rotate';
+import ScrollAnimation from "react-animate-on-scroll";
 import "./style.css";
 
 const About  = () => {
@@ -10,16 +10,18 @@ const About  = () => {
       <div className="container">
         <div className="row h-100 ">
           <div className="about-text">
-          <Rotate left>
+          <ScrollAnimation animateIn='bounceInLeft'
+  animateOut='bounceOutRight'>
             <h1>
               Desenvolvedor <span>Front-end</span>{" "}
             </h1>
-            </Rotate>
-
+            </ScrollAnimation>
+            <ScrollAnimation animateIn='fadeIn'
+  animateOut='fadeOut'>
             <a href="#projetos" className=" btn btn-1">
               ver projetos
             </a>
-        
+            </ScrollAnimation>
           </div>
 
           <div className="about-img">
