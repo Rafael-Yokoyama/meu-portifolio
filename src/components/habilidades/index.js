@@ -104,7 +104,7 @@ const Habilidades = () => {
               <MdComputer size={40} color={"#0caa68"} />
               <h2> Criação de Sites</h2>
               <p>
-                Desenvolvimento de sites profissionais, sistemas web, blogs etc.
+                Desenvolvimento de sites profissionais, sistemas web e  etc.
               </p>
             </div>
             <div>
