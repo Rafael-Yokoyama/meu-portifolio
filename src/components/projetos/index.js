@@ -28,7 +28,7 @@ const Projetos = () => {
             
             <div className="divimg">
               <a
-                className="bloquinho"
+                className="bloquinho bloquinho-1"
                 href="https://pizzariayo.netlify.app/"
                 target="_blank"
               >
@@ -46,7 +46,7 @@ const Projetos = () => {
    
             <div className="divimg">
               <a
-                className="bloquinho"
+                className="bloquinho bloquinho-2 "
                 href="https://fariah-braids.netlify.app/"
                 target="_blank"
               >
@@ -64,7 +64,7 @@ const Projetos = () => {
         
             <div className="divimg">
               <a
-                className="bloquinho"
+                className="bloquinho bloquinho-3"
                 href="https://rafael-yokoyama.github.io/projeto_food/build/"
                 target="_blank"
               >
@@ -83,7 +83,7 @@ const Projetos = () => {
          
             <div className="divimg">
               <a
-                className="bloquinho"
+                className="bloquinho bloquinho-4"
                 href="https://rafael-yokoyama.github.io/Curriculo_Ts//build/"
                 target="_blank"
               >
@@ -101,7 +101,7 @@ const Projetos = () => {
 
             <div className="divimg">
               <a
-                className="bloquinho"
+                className="bloquinho bloquinho-5"
                 href="https://github.com/Rafael-Yokoyama/Projetos-Trilha-Abinbev-React/tree/main/emporio"
                 target="_blank"
               >
@@ -119,13 +119,13 @@ const Projetos = () => {
         
  
             <div className="divimg">
-              <a className="bloquinho" href="#" target="_blank">
+              <a className="bloquinho bloquinho-6 " href="#" target="_blank">
                 <span>
                   <img className="imagemProjetos" />
                 </span>
                 <figcaption>
                   {" "}
-                  Novidades em breve aguarde <p> carregando ...</p>{" "}
+                  Novidades em breve,aguarde <p> carregando ...</p>{" "}
                 </figcaption>
               </a>
             </div>
