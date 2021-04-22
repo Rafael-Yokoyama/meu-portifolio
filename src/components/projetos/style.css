@@ -64,6 +64,7 @@
 .imagemProjetos,
 .bloquinho {
   object-fit: cover;
+ object-position: center;
   clip-path: polygon(
     50% 0%,
     83% 12%,
@@ -119,6 +120,10 @@ a.bloquinho-4 {
   background: var(--color-12);
 }
 
+a.bloquinho-7{
+  background: linear-gradient(#f26d1c 36.98%,#fc3227);
+}
+
 
 a.bloquinho-6 {
   background: var(--color-2);
@@ -126,8 +131,10 @@ a.bloquinho-6 {
 
 a.bloquinho-2 figcaption,
 a.bloquinho-3 figcaption,
+a.bloquinho-5 figcaption,
 a.bloquinho-2 figcaption p,
-a.bloquinho-3 figcaption p{
+a.bloquinho-3 figcaption p,
+a.bloquinho-5 figcaption p{
   color: var(--color-9);
 }
 
@@ -165,3 +172,4 @@ figcaption p {
   padding: 20px;
   margin: 0 auto;
 }
+

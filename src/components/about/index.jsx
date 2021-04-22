@@ -1,26 +1,26 @@
 import React from "react";
-
 import img from "../../img/Rafael.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 import "./style.css";
 
-const About  = () => {
+const About = () => {
   return (
     <section className="about-section">
       <div className="container">
         <div className="row h-100 ">
           <div className="about-text">
-          <ScrollAnimation animateIn='bounceInLeft'
-  animateOut='bounceOutRight'>
-            <h1>
-              Desenvolvedor <span>Front-end</span>{" "}
-            </h1>
+            <ScrollAnimation
+              animateIn="bounceInLeft"
+              animateOut="bounceOutRight"
+            >
+              <h1>
+                Desenvolvedor <span>Front-end</span>{" "}
+              </h1>
             </ScrollAnimation>
-            <ScrollAnimation animateIn='fadeIn'
-  animateOut='fadeOut'>
-            <a href="#projetos" className=" btn btn-1">
-              ver projetos
-            </a>
+            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
+              <a href="#projetos" className=" btn btn-1">
+                ver projetos
+              </a>
             </ScrollAnimation>
           </div>
 

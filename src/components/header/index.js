@@ -1,9 +1,10 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import Rotate from 'react-reveal/Rotate';
 import "./style.css";
 
 const Headertop = () => {
+
+  
   return (
     <header className="header">
       <div className="container">
@@ -46,7 +47,7 @@ const Headertop = () => {
                 >
                    
                 
-                  Peça orçamento
+              Orçamento
                  
                 </a>
             

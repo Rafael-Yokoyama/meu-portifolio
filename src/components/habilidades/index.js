@@ -107,6 +107,7 @@ const Habilidades = () => {
                 Desenvolvimento de sites profissionais, sistemas web e  etc.
               </p>
             </div>
+          
             <div>
               <ImMobile size={40} color={"#0caa68"} />
               <h2> Sites Responsivos</h2>
@@ -115,6 +116,7 @@ const Habilidades = () => {
                 as resoluções.
               </p>
             </div>
+         
             <div>
               <FaRegLightbulb size={40} color={"#0caa68"} />
               <h2> UI/UX Design</h2>
