@@ -11,11 +11,15 @@
 
 .header .logo {
   padding: 0 15px;
+  display:flex;
+  align-items: center;
   font-weight: 600px;
 }
 
 .header .logo a {
-  font-size: 24px;
+  padding-top:10px;
+  padding-left:8px;
+  font-size: 16px;
   color: var(--white-900);
   text-transform: capitalize;
   font-weight: 600;

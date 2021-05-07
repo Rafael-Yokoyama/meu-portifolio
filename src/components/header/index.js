@@ -1,7 +1,7 @@
 import React from "react";
 import Rotate from 'react-reveal/Rotate';
 import "./style.css";
-
+import logo from "../../img/logo.svg";
 const Headertop = () => {
 
   
@@ -10,8 +10,10 @@ const Headertop = () => {
       <div className="container">
         <div className="row ">
           <div className="logo">
+   <img src={logo} width="58" alt="Logo" />
           <Rotate top left>
-            <a href="#"> Dev Yokoyama</a>
+
+            <a href="#"> Rafael Yokoyama</a>
             </Rotate>  
           </div>
           <input type="checkbox" id="nav-check" />
